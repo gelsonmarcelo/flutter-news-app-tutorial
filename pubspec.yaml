@@ -36,6 +36,30 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
 
+  # State managment
+  flutter_bloc: ^8.1.2
+
+  # Comparing dart objects
+  equatable: ^2.0.5
+
+  # Service locator
+  get_it: ^7.6.0
+
+  # Date format
+  intl: ^0.18.1
+
+  # Database
+  floor: ^1.4.2
+  
+  # Retrofit: requests API
+  retrofit: ^3.0.1
+
+  # Hooks
+  flutter_hooks: ^0.18.3
+
+  # Cached Image
+  cached_network_image: ^3.2.0
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -46,6 +70,9 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^2.0.0
+  retrofit_generator: 3.0.1+1
+  floor_generator: 1.2.0
+  build_runner: 2.1.2
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -88,3 +115,12 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+
+  fonts: 
+    - family: Ubuntu
+      fonts:
+        - asset: assets/fonts/ubuntu/ubuntu.ttf
+        - asset: assets/fonts/ubuntu/ubuntu-bold.ttf
+          weight: 700
+        - asset: assets/fonts/ubuntu/ubuntu-light.ttf
+          weight: 300
